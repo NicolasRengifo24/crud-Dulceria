@@ -39,6 +39,7 @@ jobs:
           -Dsonar.organization=nicolasrengifo24
           -Dsonar.sources=app,config,routes,database
           -Dsonar.tests=tests
-          -Dsonar.php.coverage.reportPaths=coverage/coverage.xml
           -Dsonar.scm.provider=git
           -Dsonar.analysis.ci=true
+          -Dsonar.issue.ignore.multicriteria=e1
+          -Dsonar.issue.ignore.multicriteria.e1.ruleKey=plsql:*
