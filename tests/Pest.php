@@ -41,7 +41,15 @@ expect()->extend('toBeOne', function () {
 |
 */
 
-function something()
+/**
+ * Test helper placeholder.
+ *
+ * This function previously existed as an empty stub. We provide a tiny
+ * implementation to avoid empty-function warnings from linters while
+ * keeping it ready for future test-specific helpers.
+ */
+function something(): bool
 {
-    // ..
+    // Intentionally simple: returns true so it can be used in smoke tests.
+    return true;
 }
