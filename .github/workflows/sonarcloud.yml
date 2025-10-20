@@ -41,5 +41,3 @@ jobs:
           -Dsonar.tests=tests
           -Dsonar.scm.provider=git
           -Dsonar.analysis.ci=true
-          -Dsonar.issue.ignore.multicriteria=e1
-          -Dsonar.issue.ignore.multicriteria.e1.ruleKey=plsql:*
