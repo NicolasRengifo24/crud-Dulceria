@@ -20,7 +20,7 @@
                                id="name" 
                                name="name" 
                                value="{{ old('name') }}"
-                               placeholder="Juan Pérez"
+                               placeholder="Juanito Alimaña"
                                required 
                                autofocus>
                         @error('name')
